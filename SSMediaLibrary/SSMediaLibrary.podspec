@@ -5,10 +5,9 @@ s.platform = :ios
 s.ios.deployment_target = '13.0'
 s.name = "SSMediaLibrary"
 s.summary = "SSMediaLibrary lets a user open any file"
-s.requires_arc = true
 
 # 2
-s.version = "0.1.3"
+s.version = "0.1.4"
 
 # 3
 # s.license = { :type => "MIT", :file => "LICENSE" }
@@ -27,7 +26,7 @@ s.source = { :git => "https://github.com/devansh-v-simformsolutions/SSMediaLibra
 s.framework = "UIKit"
 
 # 8
-s.source_files = "SSMediaLibrary/**/*.{h,swift}"
+s.source_files = "SSMediaLibrary/**/*.{h,m,swift}"
 
 # 10
 s.swift_version = "5.0"
