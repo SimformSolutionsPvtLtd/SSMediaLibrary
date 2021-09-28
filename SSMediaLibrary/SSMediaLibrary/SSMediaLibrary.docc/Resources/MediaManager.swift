@@ -12,11 +12,7 @@ import AVKit
 import SafariServices
 
 class MediaManager {
-    var mediaUrl: URL? {
-        didSet {
-            localUrl = mediaUrl
-        }
-    }
+    var mediaUrl: URL?
     var mediaExtension: UTI?
     var sinkOperation: AnyCancellable?
     var localUrl: URL?
@@ -48,6 +44,7 @@ class MediaManager {
     
     init(url: URL) {
         mediaUrl = url
+        localUrl = url
         mediaExtension = UTI(withExtension: url.pathExtension)
     }
     
@@ -70,10 +67,10 @@ class MediaManager {
     
     func getFileFromLocal() -> URL? {
         guard let fileName = mediaUrl?.lastPathComponent,
-              var cacheDir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
+              var documentDir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
         else { return nil }
-        cacheDir.appendPathComponent(fileName)
-        return FileManager.default.fileExists(atPath: cacheDir.path) ? URL(fileURLWithPath: cacheDir.path) : nil
+        documentDir.appendPathComponent(fileName)
+        return FileManager.default.fileExists(atPath: documentDir.path) ? URL(fileURLWithPath: documentDir.path) : nil
     }
     
     func downloadFile(url: URL) {

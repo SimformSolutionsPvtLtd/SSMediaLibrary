@@ -330,19 +330,6 @@ public class UTI: RawRepresentable, Equatable {
 		return declaration
 	}
 
-	/// Returns the location of a bundle containing the declaration for a type, or nil if the bundle could not be located.
-
-	public var declaringBundleURL: URL? {
-
-		let unmanagedURL = UTTypeCopyDeclaringBundleURL(self.rawCFValue)
-
-		guard let url = unmanagedURL?.takeRetainedValue() as URL? else {
-			return nil
-		}
-
-		return url
-	}
-
 	/// Returns ```true``` if the receiver is a dynamic UTI.
 
 	public var isDynamic: Bool {

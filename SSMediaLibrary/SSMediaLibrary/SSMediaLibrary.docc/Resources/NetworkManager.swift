@@ -23,12 +23,6 @@ class NetworkManager {
     }
 }
 
-extension NetworkManager {
-    func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceive data: Data) {
-        
-    }
-}
-
 
 extension URLSession {
     public func downloadTaskPublisher(for url: URL) -> URLSession.DownloadTaskPublisher {
@@ -82,6 +76,7 @@ extension URLSession {
             guard demand > 0 else {
                 return
             }
+            
             self.task = self.session.downloadTask(with: request) { [weak self] url, response, error in
                 if let error = error as? URLError {
                     self?.subscriber?.receive(completion: .failure(error))
