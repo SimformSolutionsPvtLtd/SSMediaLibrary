@@ -7,7 +7,7 @@ s.name = "SSMediaLibrary"
 s.summary = "SSMediaLibrary lets a user open any file"
 
 # 2
-s.version = "0.1.4"
+s.version = "0.1.5"
 
 # 3
 # s.license = { :type => "MIT", :file => "LICENSE" }
