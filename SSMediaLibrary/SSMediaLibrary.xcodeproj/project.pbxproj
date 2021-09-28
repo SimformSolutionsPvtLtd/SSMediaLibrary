@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A03A495270338BF00A68A5B /* SSMediaLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1A03A494270338BF00A68A5B /* SSMediaLibrary.podspec */; };
 		1A6B0D1426A1567B00D410EA /* SSMediaLibrary.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B0D1326A1567B00D410EA /* SSMediaLibrary.docc */; };
 		1A6B0D1526A1567B00D410EA /* SSMediaLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6B0D1226A1567B00D410EA /* SSMediaLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A03A494270338BF00A68A5B /* SSMediaLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SSMediaLibrary.podspec; sourceTree = "<group>"; };
 		1A6B0D0F26A1567B00D410EA /* SSMediaLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSMediaLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6B0D1226A1567B00D410EA /* SSMediaLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSMediaLibrary.h; sourceTree = "<group>"; };
 		1A6B0D1326A1567B00D410EA /* SSMediaLibrary.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SSMediaLibrary.docc; sourceTree = "<group>"; };
@@ -31,6 +33,7 @@
 		1A6B0D0526A1567B00D410EA = {
 			isa = PBXGroup;
 			children = (
+				1A03A494270338BF00A68A5B /* SSMediaLibrary.podspec */,
 				1A6B0D1126A1567B00D410EA /* SSMediaLibrary */,
 				1A6B0D1026A1567B00D410EA /* Products */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A03A495270338BF00A68A5B /* SSMediaLibrary.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
