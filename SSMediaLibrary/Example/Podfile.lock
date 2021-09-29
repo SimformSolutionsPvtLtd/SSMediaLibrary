@@ -1,0 +1,16 @@
+PODS:
+  - SSMediaLibrary (0.1.5)
+
+DEPENDENCIES:
+  - SSMediaLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  SSMediaLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSMediaLibrary: d16994a17281ec461c7e0381266c87d0fe757a3a
+
+PODFILE CHECKSUM: 263ea283182988d2e921b46224197236fdcbd8a2
+
+COCOAPODS: 1.10.1
