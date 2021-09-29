@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "SSMediaLibrary.h"
+#import "SSMediaLibraryHeader.h"
 
 FOUNDATION_EXPORT double SSMediaLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char SSMediaLibraryVersionString[];

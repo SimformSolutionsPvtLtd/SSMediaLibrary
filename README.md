@@ -26,7 +26,7 @@ Setup Instructions
 ------------------
 To integrate SSMediaLibrary into your Xcode project using CocoaPods, specify it in your `Podfile`:
 ```ruby
-pod 'SSMediaLibrary', '~> 0.1.5'
+pod 'SSMediaLibrary', '~> 0.1.6'
 ```
 and in your code add `import SSMediaLibrary`.
 
@@ -54,6 +54,9 @@ guard let url = URL(string: "http://www.africau.edu/images/default/sample.pdf") 
 let manager = MediaManager(url: url)
 manager.show()
 ```
+# To-Do
+* Show file downloading progress
+* Support for other file
 
 <h3><a href="https://github.com/SimformSolutionsPvtLtd"><u>🗂 Check out our other libraries→</u></a></h3>
 

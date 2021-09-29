@@ -4,7 +4,7 @@
     "ios": "13.0"
   },
   "summary": "SSMediaLibrary lets a user open any file",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -15,7 +15,7 @@
   "homepage": "https://github.com/devansh-v-simformsolutions/SSMediaLibrary",
   "source": {
     "git": "https://github.com/devansh-v-simformsolutions/SSMediaLibrary.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "frameworks": "UIKit",
   "source_files": "SSMediaLibrary/**/*.{h,m,swift}",
