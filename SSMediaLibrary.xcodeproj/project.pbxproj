@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A6B0D1526A1567B00D410EA /* SSMediaLibraryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6B0D1226A1567B00D410EA /* SSMediaLibraryHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A80CA0E2704B8DB001CB33F /* SSMediaLibrary.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B0D1326A1567B00D410EA /* SSMediaLibrary.docc */; };
+		1A818A032704D2AA00FB3602 /* SSMediaLibraryHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A818A022704D2AA00FB3602 /* SSMediaLibraryHeader.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A03A494270338BF00A68A5B /* SSMediaLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SSMediaLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1A6B0D0F26A1567B00D410EA /* SSMediaLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSMediaLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A6B0D1226A1567B00D410EA /* SSMediaLibraryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSMediaLibraryHeader.h; sourceTree = "<group>"; };
-		1A6B0D1326A1567B00D410EA /* SSMediaLibrary.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SSMediaLibrary.docc; sourceTree = "<group>"; };
-		1A777CC52704ACE7000164EE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1A818A022704D2AA00FB3602 /* SSMediaLibraryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSMediaLibraryHeader.h; path = SSMediaLibrary/SSMediaLibraryHeader.h; sourceTree = "<group>"; };
+		1A818A042704D2BA00FB3602 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = SSMediaLibrary/SSMediaLibrary.docc/Classes; sourceTree = "<group>"; };
+		1A818A052704D2C800FB3602 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A9AA6F027036590004F7942 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,7 +34,7 @@
 			isa = PBXGroup;
 			children = (
 				1A9AA6F027036590004F7942 /* Package.swift */,
-				1A777CC52704ACE7000164EE /* README.md */,
+				1A818A052704D2C800FB3602 /* README.md */,
 				1A03A494270338BF00A68A5B /* SSMediaLibrary.podspec */,
 				1A6B0D1126A1567B00D410EA /* SSMediaLibrary */,
 				1A6B0D1026A1567B00D410EA /* Products */,
@@ -53,8 +52,8 @@
 		1A6B0D1126A1567B00D410EA /* SSMediaLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				1A6B0D1226A1567B00D410EA /* SSMediaLibraryHeader.h */,
-				1A6B0D1326A1567B00D410EA /* SSMediaLibrary.docc */,
+				1A818A022704D2AA00FB3602 /* SSMediaLibraryHeader.h */,
+				1A818A042704D2BA00FB3602 /* Classes */,
 			);
 			path = SSMediaLibrary;
 			sourceTree = "<group>";
@@ -66,7 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A6B0D1526A1567B00D410EA /* SSMediaLibraryHeader.h in Headers */,
+				1A818A032704D2AA00FB3602 /* SSMediaLibraryHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +126,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A80CA0E2704B8DB001CB33F /* SSMediaLibrary.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
