@@ -1,0 +1,6 @@
+framework module SSMediaLibrary {
+  umbrella header "SSMediaLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
