@@ -53,6 +53,14 @@ Basic Examples
 guard let url = URL(string: "http://www.africau.edu/images/default/sample.pdf") else { return }
 let manager = MediaManager(url: url)
 manager.show()
+
+guard let url = URL(string: "https://file-examples-com.github.io/uploads/2017/10/file_example_JPG_100kB.jpg") else { return }
+let manager = MediaManager(url: url)
+manager.show()
+
+guard let url = URL(string: "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mov-file.mov") else { return }
+let manager = MediaManager(url: url)
+manager.show()
 ```
 # To-Do
 * Show file downloading progress
