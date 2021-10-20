@@ -5,15 +5,15 @@ s.ios.deployment_target = '13.0'
 s.name = "SSMediaLibrary"
 s.summary = "SSMediaLibrary lets a user open any file"
 
-s.version = "0.1.9"
+s.version = "0.1.10"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
 s.author = { "Devansh Vyas" => "devansh.v@simformsolutions.com" }
 
-s.homepage = "https://github.com/devansh-v-simformsolutions/SSMediaLibrary"
+s.homepage = "https://github.com/mobile-simformsolutions/SSMediaLibrary"
 
-s.source = { :git => "https://github.com/devansh-v-simformsolutions/SSMediaLibrary.git",
+s.source = { :git => "https://github.com/mobile-simformsolutions/SSMediaLibrary.git",
              :tag => "#{s.version}" }
 
 s.framework = "UIKit"
