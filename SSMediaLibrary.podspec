@@ -5,7 +5,7 @@ s.ios.deployment_target = '13.0'
 s.name = "SSMediaLibrary"
 s.summary = "SSMediaLibrary lets a user open any file"
 
-s.version = "0.1.10"
+s.version = "1.0.0"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
