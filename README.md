@@ -20,7 +20,7 @@ SSMediaLibrary is written in Swift with the use of Combine framework. It will do
 * Video
 * Any URL
 
-![Alt text](https://github.com/SimformSolutionsPvtLtd/SSMediaLibrary/blob/main/SSMediaLibraryExample.gif)
+![Alt text](https://github.com/SimformSolutionsPvtLtd/SSMediaLibrary/blob/main/SSMediaLibraryExample.gif=250x)
 
 Setup Instructions
 ------------------
